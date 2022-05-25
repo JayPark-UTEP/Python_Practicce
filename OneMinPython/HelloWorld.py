@@ -60,18 +60,3 @@ print(str.find('King'))
 
 print('개발 언어에는 {1},{0} 등이 있어요'.format('python', 'java'))
 
-my_list = ['cake1', 'cake2', 'cake3', 'cake3']
-empty_list = []
-print(my_list)
-print(my_list[2])
-print(my_list[0:2])
-print(empty_list)
-
-print('cake2' in my_list)
-print(len(my_list))
-my_list[3] = 'cake4'
-print(my_list)
-new_list = ['Drink1', 'Drink2', 'Drink3']
-new_list += my_list
-
-print(new_list)
