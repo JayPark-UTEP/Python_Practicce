@@ -59,4 +59,24 @@ print(str.replace('King', 'Queen'))
 print(str.find('King'))
 
 print('개발 언어에는 {1},{0} 등이 있어요'.format('python', 'java'))
+print("I am {age} years old and I like {color}".format(age = 20, color="Red"))
+age = 27
+color = "Blue"
+print(f"I am {age} years old and I like {color}")
 
+#next line \n
+print("I am going to Virginia on June 20th. \n And comming back on July 26th")
+
+#print "" in string
+print("I am going to take \"Statistic\" and \"Numerical Analysis\" this Summer" )
+
+#print \ in string
+print("c:\\Users\\Jpark\\Desktop")
+
+#moving pointer to the front
+print("REd Apple\rPine") # Erase rist 4 chars becasue Pine
+
+print("Redd\bApple")
+
+#tab
+print("Red\tApple")
