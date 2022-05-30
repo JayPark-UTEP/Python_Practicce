@@ -1,6 +1,18 @@
 #tuple
 #Data can not be changed later
-my_tuple = ('car1', 'car2', 'car3')
-print(my_tuple.count('car1'))
+#excuting speed is quicker than List
 
-print(my_tuple.index("car2"))
+from socket import J1939_NLA_BYTES_ACKED
+
+
+menu = ("Gt350", "GR86")
+
+print("-----------------")
+print(menu)
+print(menu[0])
+
+# name = "Jay"
+# age = 27
+# hobby = "Exercising"
+
+(name, age, hobby) = ("Jay", 27, "Exercising")
