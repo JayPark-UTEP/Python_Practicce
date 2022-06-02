@@ -32,4 +32,15 @@ print("{0: > 10}".format(500))
 print("{0: >+10}".format(500))
 print("{0: >+10}".format(-500))
 #sort to left, fill blank space with _
-print("{0: _<+10}".format(500)) 
+print("{0:_<+10}".format(500)) 
+print("{0:_<10}".format(500)) 
+#Print , by 1000
+print("{0:,}".format(1000000000))
+#Print , by 1000 and +-
+print("{0:+,}".format(1000000000))
+print("{0:+,}".format(-1000000000))
+#Get 30 spaces print ^ and print , by 1000 and +-
+print("{0:^<+30,}".format(1000000000))
+#Decimal
+print("{0:f}".format(5/3))
+print("{0:.2f}".format(5/3))
